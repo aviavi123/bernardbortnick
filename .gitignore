@@ -1,0 +1,20 @@
+# macOS / OS junk
+.DS_Store
+.AppleDouble
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Duplicate copies of the published edits that browsers create on download.
+# NOTE: the real "content-overrides.json" at the project root SHOULD be committed —
+# that's how your dad's edits go live. Only the "(1)", "(2)"… duplicates are ignored.
+content-overrides*(*).json
+
+# Anything token-ish should never be committed (the publishing token lives only
+# in the browser; it is never written here by design — this is just a safety net).
+*token*
+*.secret
+.env

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bernard Bortnick</title>
+  <meta name="description" content="Paintings by Bernard Bortnick.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a href="#" class="brand-name" data-nav-home>Bernard Bortnick</a>
+      <span class="brand-sub" id="section-title">Paintings</span>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">Menu</button>
+    <nav class="site-nav" id="site-nav">
+      <ul id="nav-list"><!-- gallery links injected by JS --></ul>
+      <ul class="nav-meta">
+        <li><a href="#" data-page="about">About</a></li>
+        <li><a href="#" data-page="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- GALLERY VIEW -->
+    <section class="gallery" id="gallery-view">
+      <div class="thumb-strip" id="thumb-strip" role="tablist" aria-label="Works in this series">
+        <!-- thumbnails injected by JS -->
+      </div>
+      <figure class="stage">
+        <div class="stage-image-wrap">
+          <img id="stage-image" alt="">
+        </div>
+        <figcaption id="stage-caption">
+          <span class="cap-title"></span>
+          <span class="cap-detail"></span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- TEXT PAGES (About / Contact) -->
+    <section class="text-page" id="text-view" hidden>
+      <div class="text-inner" id="text-content"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span id="year"></span> Bernard Bortnick. All rights reserved.</span>
+    <a href="#" id="edit-link" class="edit-link">Edit</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
