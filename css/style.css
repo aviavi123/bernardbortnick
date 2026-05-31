@@ -154,9 +154,18 @@ main { flex: 1 0 auto; }
   background: var(--ink);
 }
 
+/* Empty gallery (category with no images yet) */
+.gallery.empty .thumb-strip { display: none; }
+.gallery.empty .stage { margin-top: clamp(40px, 12vh, 140px); }
+.gallery.empty #stage-caption .cap-title {
+  font-style: normal;
+  color: var(--ink-soft);
+  letter-spacing: 0.04em;
+}
+
 /* Large image stage */
 .stage {
-  margin: clamp(28px, 5vw, 64px) 0 0;
+  margin: clamp(16px, 2.5vw, 34px) 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,11 +175,45 @@ main { flex: 1 0 auto; }
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+/* Prev/next arrows flanking the large image */
+.stage-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+  font-size: 30px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12);
+  transition: background .2s, opacity .2s;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.stage-nav:hover { background: #fff; }
+.stage-nav.prev { left: 6px; }
+.stage-nav.next { right: 6px; }
+.stage-nav[hidden] { display: none; }
+.gallery.empty .stage-nav { display: none; }
+
+@media (max-width: 600px) {
+  .stage-nav { width: 40px; height: 40px; font-size: 24px; }
 }
 
 #stage-image {
   max-width: 100%;
-  max-height: 72vh;
+  max-height: 72vh;   /* fallback; JS sets an exact px max-height to fit the viewport */
   object-fit: contain;
   box-shadow: 0 1px 30px rgba(0,0,0,0.07);
   opacity: 0;
@@ -179,7 +222,7 @@ main { flex: 1 0 auto; }
 #stage-image.loaded { opacity: 1; }
 
 #stage-caption {
-  margin-top: 22px;
+  margin-top: 16px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -231,8 +274,13 @@ main { flex: 1 0 auto; }
   color: #b0b0b0;
   text-transform: uppercase;
 }
-.edit-link { color: #cfcfcf; }
-.edit-link:hover { color: var(--ink-soft); }
+.edit-link {
+  color: var(--ink);
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.edit-link:hover { color: #000; }
 
 /* ----------------------------- Edit mode ----------------------------- */
 
@@ -253,6 +301,12 @@ body.editing .cap-detail:hover {
   outline: 1px solid var(--ink) !important;
   background: #fff !important;
 }
+
+/* Make empty fields clickable in edit mode by showing a faint placeholder.
+   The placeholder is CSS-only, so it is never saved as real text. */
+body.editing .cap-title:empty::before  { content: "Click to add a title"; color: #c2c2c2; }
+body.editing .cap-detail:empty::before { content: "Double-click to add a description"; color: #c2c2c2; }
+body.editing .cap-detail { min-height: 1.2em; }
 
 #edit-toolbar {
   position: fixed;

@@ -10,7 +10,7 @@
    or description to change it. See README for how edits get published.
    =========================================================================== */
 
-const EDIT_PASSWORD = "bortnick";   // ← change this; it only deters casual visitors (see README)
+const EDIT_PASSWORD = "kintrob1";   // light security: deters casual visitors only (see README)
 
 /* One-click publishing target. Fill these in after the GitHub repo exists.
    While owner/repo are blank, "Publish" falls back to downloading a file. */
@@ -22,66 +22,44 @@ const GITHUB = {
 };
 const TOKEN_KEY = "bb_gh_token";    // GitHub token, stored in this browser only
 
-const GALLERIES = {
-  "portraits": {
-    title: "Portraits",
-    works: [
-      { src: "images/portraits/placeholder-01.svg", title: "Untitled Portrait", details: "Oil on canvas" },
-      { src: "images/portraits/placeholder-02.svg", title: "Untitled Portrait", details: "Oil on canvas" },
-    ],
-  },
-  "landscapes": {
-    title: "Landscapes and the Built Environment",
-    works: [
-      { src: "images/landscapes/placeholder-01.svg", title: "Untitled Landscape", details: "Oil on canvas" },
-      { src: "images/landscapes/placeholder-02.svg", title: "Untitled Landscape", details: "Oil on canvas" },
-    ],
-  },
-  "age-of-outrage": {
-    title: "Age of Outrage",
-    works: [
-      { src: "images/age-of-outrage/placeholder-01.svg", title: "Untitled", details: "Mixed media" },
-      { src: "images/age-of-outrage/placeholder-02.svg", title: "Untitled", details: "Mixed media" },
-    ],
-  },
-  "figurative": {
-    title: "Figurative",
-    works: [
-      { src: "images/figurative/placeholder-01.svg", title: "Untitled Figure", details: "Oil on canvas" },
-      { src: "images/figurative/placeholder-02.svg", title: "Untitled Figure", details: "Oil on canvas" },
-    ],
-  },
-  "watercolors": {
-    title: "Watercolors",
-    works: [
-      { src: "images/watercolors/placeholder-01.svg", title: "Untitled", details: "Watercolor on paper" },
-      { src: "images/watercolors/placeholder-02.svg", title: "Untitled", details: "Watercolor on paper" },
-    ],
-  },
-  "drawings-people-and-places": {
-    title: "Drawings: People and Places",
-    works: [
-      { src: "images/drawings-people-and-places/placeholder-01.svg", title: "Untitled", details: "Ink on paper" },
-      { src: "images/drawings-people-and-places/placeholder-02.svg", title: "Untitled", details: "Charcoal on paper" },
-    ],
-  },
-  "drawings-political": {
-    title: "Drawings: Political",
-    works: [
-      { src: "images/drawings-political/placeholder-01.svg", title: "Untitled", details: "Ink on paper" },
-      { src: "images/drawings-political/placeholder-02.svg", title: "Untitled", details: "Ink on paper" },
-    ],
-  },
-};
+/* Category slugs + display titles, in nav order. Must match CATEGORIES in
+   build_manifest.py. The actual paintings come from manifest.json (regenerated
+   by running `python3 build_manifest.py` whenever images are added/removed). */
+const CATEGORIES = [
+  ["portraits",                  "Portraits"],
+  ["landscapes",                 "Landscapes and the Built Environment"],
+  ["age-of-outrage",             "Age of Outrage"],
+  ["figurative",                 "Figurative"],
+  ["watercolors",                "Watercolors"],
+  ["drawings-people-and-places", "Drawings: People and Places"],
+  ["drawings-political",         "Drawings: Political"],
+];
+
+let GALLERIES = {};   // built from CATEGORIES + manifest.json at startup
+
+function buildGalleries(manifest) {
+  GALLERIES = {};
+  for (const [slug, title] of CATEGORIES) {
+    GALLERIES[slug] = { title, works: (manifest && manifest[slug]) || [] };
+  }
+}
+
+async function loadManifest() {
+  try {
+    const res = await fetch("manifest.json", { cache: "no-store" });
+    if (res.ok) return await res.json();
+  } catch { /* ignore — falls back to empty galleries */ }
+  return {};
+}
 
 const PAGES = {
   about: {
     title: "About",
     html: `
-      <p>Bernard Bortnick is a painter whose work moves between portraiture,
-      observed landscape, the built environment, and political commentary.
-      <em>(Replace this with your dad's artist statement and bio.)</em></p>
-      <p>He lives and works in Dallas, Texas.</p>`,
+      <p>Bernard Bortnick lives in Dallas, TX. In addition to being a painter,
+      Bortnick is a Fellow of the American Institute of Architects, a former
+      professor of Architecture at Washington University, and has designed over
+      100 buildings around the world.</p>`,
   },
   contact: {
     title: "Contact",
@@ -143,9 +121,11 @@ const els = {
   capDetail: $(".cap-detail"),
   nav: $("#site-nav"),
   navToggle: $(".nav-toggle"),
+  navPrev: $("#nav-prev"),
+  navNext: $("#nav-next"),
 };
 
-const galleryKeys = Object.keys(GALLERIES);
+let galleryKeys = [];   // set after galleries are built
 
 function buildNav() {
   els.navList.innerHTML = "";
@@ -173,6 +153,19 @@ function showGallery(key, workIndex = 0) {
   if (activeLink) activeLink.classList.add("active");
 
   els.strip.innerHTML = "";
+
+  if (gallery.works.length === 0) {
+    els.galleryView.classList.add("empty");
+    els.stageImg.classList.remove("loaded");
+    els.stageImg.removeAttribute("src");
+    els.capTitle.textContent = "Images coming soon";
+    els.capDetail.textContent = "";
+    current = { key, index: 0 };
+    closeMobileNav();
+    return;
+  }
+  els.galleryView.classList.remove("empty");
+
   gallery.works.forEach((work, i) => {
     const btn = document.createElement("button");
     btn.className = "thumb";
@@ -187,8 +180,34 @@ function showGallery(key, workIndex = 0) {
     els.strip.appendChild(btn);
   });
 
+  const multi = gallery.works.length > 1;
+  els.navPrev.hidden = !multi;
+  els.navNext.hidden = !multi;
+
   selectWork(key, workIndex);
   closeMobileNav();
+}
+
+/* Move to the previous/next painting in the current series (wraps around).
+   selectWork() keeps the thumbnail strip selection in sync. */
+function step(delta) {
+  const works = GALLERIES[current.key]?.works || [];
+  if (works.length < 2) return;
+  const next = (current.index + delta + works.length) % works.length;
+  selectWork(current.key, next);
+}
+
+/* Size the large image to whatever vertical space is left below the thumbnail
+   strip, so the full painting + caption fit without scrolling. */
+function fitStageImage() {
+  const img = els.stageImg;
+  if (!img || els.galleryView.hidden) return;
+  const caption = document.getElementById("stage-caption");
+  const topFromDoc = img.getBoundingClientRect().top + window.scrollY; // scroll-independent
+  const captionH = caption ? caption.offsetHeight : 0;
+  const reserve = 16 + captionH + 28;   // caption gap + caption height + bottom breathing room
+  const available = window.innerHeight - topFromDoc - reserve;
+  img.style.maxHeight = Math.max(available, 160) + "px";
 }
 
 function selectWork(key, index) {
@@ -202,12 +221,13 @@ function selectWork(key, index) {
   img.onload = () => {
     els.stageImg.src = work.src;
     els.stageImg.alt = c.title;
-    requestAnimationFrame(() => els.stageImg.classList.add("loaded"));
+    requestAnimationFrame(() => { els.stageImg.classList.add("loaded"); fitStageImage(); });
   };
   img.src = work.src;
 
   els.capTitle.textContent = c.title;
   els.capDetail.textContent = c.details;
+  fitStageImage();
 
   els.strip.querySelectorAll(".thumb").forEach((t) => t.classList.remove("active"));
   const activeThumb = els.strip.querySelector(`.thumb[data-index="${index}"]`);
@@ -241,22 +261,39 @@ els.navToggle.addEventListener("click", () => {
   els.navToggle.setAttribute("aria-expanded", String(open));
 });
 
+function defaultGallery() {
+  return galleryKeys.find((k) => GALLERIES[k].works.length > 0) || galleryKeys[0];
+}
+
 function route() {
   const hash = location.hash.replace(/^#/, "");
-  if (!hash) return showGallery(galleryKeys[0]);
+  if (!hash) return showGallery(defaultGallery());
   const [key, idx] = hash.split("/");
   if (GALLERIES[key]) return showGallery(key, parseInt(idx, 10) || 0);
-  showGallery(galleryKeys[0]);
+  showGallery(defaultGallery());
 }
 
 document.addEventListener("click", (e) => {
   const pageLink = e.target.closest("[data-page]");
   if (pageLink) { e.preventDefault(); showPage(pageLink.dataset.page); return; }
   const home = e.target.closest("[data-nav-home]");
-  if (home) { e.preventDefault(); location.hash = ""; showGallery(galleryKeys[0]); }
+  if (home) { e.preventDefault(); location.hash = ""; showGallery(defaultGallery()); }
 });
 
 window.addEventListener("hashchange", route);
+window.addEventListener("resize", fitStageImage);
+els.stageImg.addEventListener("load", fitStageImage);
+
+els.navPrev.addEventListener("click", () => step(-1));
+els.navNext.addEventListener("click", () => step(1));
+
+document.addEventListener("keydown", (e) => {
+  if (els.galleryView.hidden) return;                 // only when viewing a gallery
+  const ae = document.activeElement;
+  if (ae && ae.getAttribute && ae.getAttribute("contenteditable") === "true") return;  // mid-edit
+  if (e.key === "ArrowLeft")  { e.preventDefault(); step(-1); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+});
 
 /* ===========================================================================
    Inline editing UI
@@ -388,7 +425,8 @@ async function publishViaGitHub(merged, json) {
     let sha;
     const getRes = await fetch(`${api}?ref=${GITHUB.branch}`, { headers, cache: "no-store" });
     if (getRes.ok) sha = (await getRes.json()).sha;
-    else if (getRes.status === 401) { invalidToken(); return; }
+    else if (getRes.status === 401 || getRes.status === 403) return tokenProblem(getRes);
+    // 404 here just means the file doesn't exist yet — we'll create it below.
 
     const putRes = await fetch(api, {
       method: "PUT",
@@ -401,8 +439,11 @@ async function publishViaGitHub(merged, json) {
       }),
     });
 
-    if (putRes.status === 401) { invalidToken(); return; }
-    if (!putRes.ok) throw new Error(`GitHub responded ${putRes.status}`);
+    if (putRes.status === 401 || putRes.status === 403) return tokenProblem(putRes);
+    if (!putRes.ok) {
+      const body = await putRes.json().catch(() => ({}));
+      throw new Error(`GitHub responded ${putRes.status}` + (body.message ? " — " + body.message : ""));
+    }
 
     publishedOverrides = merged;
     localOverrides = {};
@@ -415,9 +456,18 @@ async function publishViaGitHub(merged, json) {
   }
 }
 
-function invalidToken() {
-  localStorage.removeItem(TOKEN_KEY);
-  window.alert("The publishing token was rejected. Please click Publish again and re-enter it.");
+async function tokenProblem(res) {
+  const body = await res.json().catch(() => ({}));
+  const msg = body.message || "";
+  const forget = window.confirm(
+    `GitHub refused the publish (${res.status}).\n` +
+    (msg ? `Reason: ${msg}\n\n` : "\n") +
+    "Most often this means the token is missing “Contents: Read and write” for the " +
+    "bernardbortnick repository, or wasn't given access to that repo.\n\n" +
+    "Click OK to forget the saved token (so you can paste a fresh one next time), " +
+    "or Cancel to keep it — e.g. if you'll just fix its permissions on GitHub."
+  );
+  if (forget) localStorage.removeItem(TOKEN_KEY);
 }
 
 const editLink = document.getElementById("edit-link");
@@ -431,6 +481,11 @@ makeEditable(els.capTitle, "title");
 makeEditable(els.capDetail, "details");
 
 document.getElementById("year").textContent = new Date().getFullYear();
-buildNav();
 
-loadPublished().finally(route);
+(async function init() {
+  const [, manifest] = await Promise.all([loadPublished(), loadManifest()]);
+  buildGalleries(manifest);
+  galleryKeys = Object.keys(GALLERIES);
+  buildNav();
+  route();
+})();
