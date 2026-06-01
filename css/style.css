@@ -207,8 +207,9 @@ main { flex: 1 0 auto; }
 .stage-nav[hidden] { display: none; }
 .gallery.empty .stage-nav { display: none; }
 
-@media (max-width: 600px) {
-  .stage-nav { width: 40px; height: 40px; font-size: 24px; }
+/* On small/mobile screens, hide the arrows — navigate by swiping instead. */
+@media (max-width: 760px) {
+  .stage-nav { display: none; }
 }
 
 #stage-image {

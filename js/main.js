@@ -287,6 +287,29 @@ els.stageImg.addEventListener("load", fitStageImage);
 els.navPrev.addEventListener("click", () => step(-1));
 els.navNext.addEventListener("click", () => step(1));
 
+/* Swipe left/right on the image to change paintings (touch screens) */
+(function enableSwipe() {
+  const wrap = document.querySelector(".stage-image-wrap");
+  if (!wrap) return;
+  let startX = 0, startY = 0, tracking = false;
+  wrap.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 1) { tracking = false; return; }
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    tracking = true;
+  }, { passive: true });
+  wrap.addEventListener("touchend", (e) => {
+    if (!tracking) return;
+    tracking = false;
+    const dx = e.changedTouches[0].clientX - startX;
+    const dy = e.changedTouches[0].clientY - startY;
+    // Require a clearly horizontal swipe so vertical scrolling still works.
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      step(dx < 0 ? 1 : -1);   // swipe left → next, swipe right → previous
+    }
+  }, { passive: true });
+})();
+
 document.addEventListener("keydown", (e) => {
   if (els.galleryView.hidden) return;                 // only when viewing a gallery
   const ae = document.activeElement;
