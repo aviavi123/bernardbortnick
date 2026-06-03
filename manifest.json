@@ -1,7 +1,625 @@
 {
-  "portraits": [],
-  "landscapes": [],
-  "age-of-outrage": [],
+  "portraits": [
+    {
+      "src": "images/portraits/Andrew Litton.jpg",
+      "title": "Andrew Litton",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Avi.jpeg",
+      "title": "Avi",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/avi.jpg",
+      "title": "avi",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/bbortnick 2020.jpg",
+      "title": "bbortnick 2020",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/bette_bared.jpg",
+      "title": "bette bared",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Eva.jpg",
+      "title": "Eva",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/eva_consoled.jpg",
+      "title": "eva consoled",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Fruit_of_the_Loom.jpg",
+      "title": "Fruit of the Loom",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Garden Window.jpg",
+      "title": "Garden Window",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/LIZ AND REBECCA - 24X32 - acrylic on wood - 2020.jpg",
+      "title": "LIZ AND REBECCA",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Lucy Morris 8-08.jpg",
+      "title": "Lucy Morris 8-08",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/martin_hovwerda.jpg",
+      "title": "martin hovwerda",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/ovalisque.jpg",
+      "title": "ovalisque",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Rachel Reading.jpeg",
+      "title": "Rachel Reading",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/rachel_in_thought.jpg",
+      "title": "rachel in thought",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/RachelsIzmir.jpg",
+      "title": "RachelsIzmir",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/RLMorris1.jpg",
+      "title": "RLMorris1",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/sam_reading.jpg",
+      "title": "sam reading",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/saturday_morning.jpg",
+      "title": "saturday morning",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Self Portrait of Someone Else.jpg",
+      "title": "Self Portrait of Someone Else",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/the_red_corsage.jpg",
+      "title": "the red corsage",
+      "details": ""
+    },
+    {
+      "src": "images/portraits/Victor.jpg",
+      "title": "Victor",
+      "details": ""
+    }
+  ],
+  "landscapes": [
+    {
+      "src": "images/landscapes/11th and Holmes.jpg",
+      "title": "11th and Holmes",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/_MG_6541.jpg",
+      "title": "Untitled",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/_MG_6543.jpg",
+      "title": "Untitled",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/A home where the buffalo roamed..jpg",
+      "title": "A home where the buffalo roamed",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Agribiz.jpg",
+      "title": "Agribiz",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Albuquerque.jpg",
+      "title": "Albuquerque",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/b_bortnick-0013.jpg",
+      "title": "b bortnick-0013",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/b_bortnick_WhiteRockLoggia_2-4333.jpg",
+      "title": "b bortnick WhiteRockLoggia 2-4333",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Bleacker Street Metro 1.jpg",
+      "title": "Bleacker Street Metro 1",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Bleecker Street Metro.jpg",
+      "title": "Bleecker Street Metro",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Califate, Patagonia.jpg",
+      "title": "Califate, Patagonia",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Chapter 11.JPG",
+      "title": "Chapter 11",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Coastal Oregon Forest.jpeg",
+      "title": "Coastal Oregon Forest",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Give Me A Home.jpg",
+      "title": "Give Me A Home",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Henry Street Fishbowl.jpg",
+      "title": "Henry Street Fishbowl",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/His And Hers.jpg",
+      "title": "His And Hers",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/IMG_0009-Edit.jpg",
+      "title": "IMG 0009-Edit",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/IMG_0015.jpg",
+      "title": "IMG 0015",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Izmir Bay Inundation.jpeg",
+      "title": "Izmir Bay Inundation",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Lakeview Evening.jpg",
+      "title": "Lakeview Evening",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Me at Nublu.jpg",
+      "title": "Me at Nublu",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Mt. Athabasca.jpg",
+      "title": "Mt. Athabasca",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Oregon Coast.jpeg",
+      "title": "Oregon Coast",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Oregon Coastal Outcropping darker.jpg",
+      "title": "Oregon Coastal Outcropping darker",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Oregon Coastal Outcropping.jpeg",
+      "title": "Oregon Coastal Outcropping",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/PeritoMorena_web.jpg",
+      "title": "PeritoMorena web",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Poppies.JPG",
+      "title": "Poppies",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Predator in the Park 32 X 40 Acryl on wd 3-10.jpg",
+      "title": "Predator in the Park",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Sandia Peak Mirage 1.jpeg",
+      "title": "Sandia Peak Mirage 1",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Sandia Peak Mirage 2.jpeg",
+      "title": "Sandia Peak Mirage 2",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Scene in a Glass of Water.jpg",
+      "title": "Scene in a Glass of Water",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Shadows on the Prarie.jpg.JPG",
+      "title": "Shadows on the Prarie",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Solitude.jpg",
+      "title": "Solitude",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/sultan ahmet 2.jpg",
+      "title": "sultan ahmet 2",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Tanker.jpg",
+      "title": "Tanker",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/the dead among the living.jpg",
+      "title": "the dead among the living",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Union Specific.jpg",
+      "title": "Union Specific",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Vakif Bank.jpg",
+      "title": "Vakif Bank",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Vicarious Target.jpg",
+      "title": "Vicarious Target",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Water Tower 1.jpg",
+      "title": "Water Tower 1",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/Water Tower 2.jpg",
+      "title": "Water Tower 2",
+      "details": ""
+    },
+    {
+      "src": "images/landscapes/White Rock.jpg",
+      "title": "White Rock",
+      "details": ""
+    }
+  ],
+  "age-of-outrage": [
+    {
+      "src": "images/age-of-outrage/1863.jpeg",
+      "title": "1863",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/3 Empty Chairs -2.jpg",
+      "title": "3 Empty Chairs -2",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Air Apparent.jpg",
+      "title": "Air Apparent",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/American Standard.jpeg",
+      "title": "American Standard",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Atlas Supreme Trial.jpg",
+      "title": "Atlas Supreme Trial",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/BBortnick-1.jpeg",
+      "title": "BBortnick-1",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/BBortnick-4.jpeg",
+      "title": "BBortnick-4",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Bird's Eye View.jpg",
+      "title": "Bird's Eye View",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Blind Veterans of WWII.jpg",
+      "title": "Blind Veterans of WWII",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Brooklyn Metro.jpg",
+      "title": "Brooklyn Metro",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Burbs Infestation.jpeg",
+      "title": "Burbs Infestation",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Capital Steps.jpg",
+      "title": "Capital Steps",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Captain Musk.jpg",
+      "title": "Captain Musk",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/chain locker.jpg",
+      "title": "chain locker",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Chapter 11.JPG",
+      "title": "Chapter 11",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Distant Shore 2.jpg",
+      "title": "Distant Shore 2",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Fossil Fuel Facile Fool.jpg",
+      "title": "Fossil Fuel Facile Fool",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Free Enterprise.jpg",
+      "title": "Free Enterprise",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Fruit of the Loom.jpg",
+      "title": "Fruit of the Loom",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Gallery Attendant 2.jpg",
+      "title": "Gallery Attendant 2",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Gallery Attendant.jpg",
+      "title": "Gallery Attendant",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/I MF.jpg",
+      "title": "I MF",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/IMG_0018.jpg",
+      "title": "IMG 0018",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/IMG_0019.jpg",
+      "title": "IMG 0019",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/IMG_0024.jpg",
+      "title": "IMG 0024",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/jumping mark.jpg",
+      "title": "jumping mark",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Looming Disaster.jpg",
+      "title": "Looming Disaster",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Lunch On The El.jpg",
+      "title": "Lunch On The El",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Mr Amazon.jpg",
+      "title": "Mr Amazon",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Mr Bill Gates.jpg",
+      "title": "Mr Bill Gates",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Oh#44!.jpg",
+      "title": "Oh#44!",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Oh_44.jpg",
+      "title": "Oh 44",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Ovalisque Fantasy.jpg",
+      "title": "Ovalisque Fantasy",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Overlord Understudy.jpg",
+      "title": "Overlord Understudy",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Pak, Inchon 1953 - Acrylic on Masonite - 24X32.jpg",
+      "title": "Pak, Inchon 1953 - Acrylic on Masonite",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Park Avenue Resident 1, acrylic on canvas, 24x48.jpeg",
+      "title": "Park Avenue Resident 1, acrylic on canvas",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Park Avenue Resident 2, acrylic on canvas, 24x48.jpeg",
+      "title": "Park Avenue Resident 2, acrylic on canvas",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Petrolsaurus Die.jpg",
+      "title": "Petrolsaurus Die",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Pillars of Society.jpg",
+      "title": "Pillars of Society",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Piranesis Attic.jpeg",
+      "title": "Piranesis Attic",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Piranesis Digsjpeg.jpeg",
+      "title": "Piranesis Digsjpeg",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Precarious Perch.jpg",
+      "title": "Precarious Perch",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Pyrrhic Victory.jpg",
+      "title": "Pyrrhic Victory",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Quagmire.jpg",
+      "title": "Quagmire",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Room with a View 2.jpg",
+      "title": "Room with a View 2",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Sheldon- pastel on Bd - 32X32 2018-2.jpeg",
+      "title": "Sheldon- pastel on Bd",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Shocknawe.jpg",
+      "title": "Shocknawe",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Stiletto 2.jpg",
+      "title": "Stiletto 2",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Stilleto 1.jpg",
+      "title": "Stilleto 1",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Tide Pool Quatratych.jpg",
+      "title": "Tide Pool Quatratych",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Tim Cook, Pastel on BD- 32XX32 2018-3.jpeg",
+      "title": "Tim Cook, Pastel on BD- 32XX32 2018-3",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Underpass 1.jpg",
+      "title": "Underpass 1",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Underpass revised.jpeg",
+      "title": "Underpass revised",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Underpass2.jpg",
+      "title": "Underpass2",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Vicarious Target.jpg",
+      "title": "Vicarious Target",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Victor.jpg",
+      "title": "Victor",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Window Pain.jpg",
+      "title": "Window Pain",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/Yard Men.jpg",
+      "title": "Yard Men",
+      "details": ""
+    },
+    {
+      "src": "images/age-of-outrage/You Saw This.jpg",
+      "title": "You Saw This",
+      "details": ""
+    }
+  ],
   "figurative": [
     {
       "src": "images/figurative/Risa Berline.jpg",
@@ -384,7 +1002,2050 @@
       "details": ""
     }
   ],
-  "watercolors": [],
-  "drawings-people-and-places": [],
-  "drawings-political": []
+  "watercolors": [
+    {
+      "src": "images/watercolors/Acadian Path.jpg",
+      "title": "Acadian Path",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/After Homer.jpg",
+      "title": "After Homer",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Ancient Rocks Canada, 15X15 WATERCOLOR ON PAPER 05-2018-0022.jpeg",
+      "title": "Ancient Rocks Canada",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Atlantic Cliffs Maine - W_C_P  18X24 - 2017- 38.jpg",
+      "title": "Atlantic Cliffs Maine - W C P",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Atlantic Ocean Maine - WCP - 18X24 - 20186.jpeg",
+      "title": "Atlantic Ocean Maine - WCP",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Atlantic Tide Pool - WCP - 16X16 - 2018BBortnick-8.jpeg",
+      "title": "Atlantic Tide Pool - WCP",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Autumal Maine, watercolor on paper, 18X24 10-2016.jpeg",
+      "title": "Autumal Maine, watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Bangor Autumn 2.jpg",
+      "title": "Bangor Autumn 2",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Bangor Autumn.jpg",
+      "title": "Bangor Autumn",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Beached Nude - 18X24 - W_C 2018-0716.jpg",
+      "title": "Beached Nude",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Beached Nude W_C_P - 2018 -18x24-12.jpeg",
+      "title": "Beached Nude W C P - 2018",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Bear Mountain Canada.jpg",
+      "title": "Bear Mountain Canada",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/BIRDS EYE VIEW 2 ,  Watercolor on paper, 18X24  8-2016.jpeg",
+      "title": "BIRDS EYE VIEW 2 , Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Bosses' Roost Boston, WC_P 18X24 - 2018 -50.jpg",
+      "title": "Bosses' Roost Boston, WC P",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/BURNT FORREST CANADA , black wash on paper, 12X30 2016.jpeg",
+      "title": "BURNT FORREST CANADA , black wash on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Califate Ice.jpg",
+      "title": "Califate Ice",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/CANADA GEESE, Alberta Canada, Watercolor, 18X24 2016, .jpeg",
+      "title": "CANADA GEESE, Alberta Canada, Watercolor",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Canadian Rockies (sketch).jpg",
+      "title": "Canadian Rockies (sketch)",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/CANADIAN ROCKIES 1, Watercolor on paper, 18X24 jpeg.jpeg",
+      "title": "CANADIAN ROCKIES 1, Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/CANADIAN ROCKIES LAKE 2, Watercolor on paper 18X24, jpeg.jpeg",
+      "title": "CANADIAN ROCKIES LAKE 2, Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/COASTAL MAINE 2, Watercolor on paper, 18X24, 6-2016peg.jpeg",
+      "title": "COASTAL MAINE 2, Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/COASTAL MAINE 3, watercolor on paper, 24X36 12016.jpeg",
+      "title": "COASTAL MAINE 3, watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/COASTAL MAINE 4, watercolor on paper, 18X24, 10-2016jpeg.jpeg",
+      "title": "COASTAL MAINE 4, watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/COASTAL MAINE AUTUMN , Watercolor on paper,, 18X24, 9-2016.jpeg",
+      "title": "COASTAL MAINE AUTUMN , Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/COASTAL MAINE, Watercolor on Paper, 18X24, 7-2016.jpeg",
+      "title": "COASTAL MAINE, Watercolor on Paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/COASTAL MAINE.jpeg",
+      "title": "COASTAL MAINE",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Coastal Maine.jpg",
+      "title": "Coastal Maine",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/COASTAL OREGON MONUMENTS, watercolor on paper, 18X24, 5-2016.jpeg",
+      "title": "COASTAL OREGON MONUMENTS, watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/DALLAS MARSH, watercolor, 18X24, 8-2016.jpeg",
+      "title": "DALLAS MARSH, watercolor",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/DALLAS MARSH,2 Watrcolor on Paper, 18X24, 5-2016.jpeg",
+      "title": "DALLAS MARSH,2 Watrcolor on Paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/DUSK IN SEATTLE, watercolor on paper, 18x18, 9-2016.jpeg",
+      "title": "DUSK IN SEATTLE, watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/DUSK ON THE TRACKS, Watercolor on paper 18X24, 5-2016.jpeg",
+      "title": "DUSK ON THE TRACKS, Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Glacial Debris, 13X20 - watercolor on paper _05-2018-0019.jpeg",
+      "title": "Glacial Debris",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/GLACIAL LAKE CANADA 2, Watercolor on paper.jpeg",
+      "title": "GLACIAL LAKE CANADA 2, Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Glacial Monuments - Patagonia - watroolor on paper -13X20 _05-2018-0020.jpeg",
+      "title": "Glacial Monuments - Patagonia - watroolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/GlacialCollapse Patagonia Watercolor on Paper 15 by21.jpg",
+      "title": "GlacialCollapse Patagonia Watercolor on Paper 15 by21",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Grass.jpg",
+      "title": "Grass",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Hudson River Bridge - watercolor on paper - 14X22 - 2020.jpg",
+      "title": "Hudson River Bridge - watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/IMG_0026.jpg",
+      "title": "IMG 0026",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/INUNDATION watercolor on paper 18X24, 8-2016.jpeg",
+      "title": "INUNDATION watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Lake Canadian Rockies.jpg",
+      "title": "Lake Canadian Rockies",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Lake Canadian.jpg",
+      "title": "Lake Canadian",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Lake Wake Canada.jpg",
+      "title": "Lake Wake Canada",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Lakeside.jpg",
+      "title": "Lakeside",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/LIGHTHOUSE HOUSE OREGON, watercolor 18X18, 8-2016.jpeg",
+      "title": "LIGHTHOUSE HOUSE OREGON, watercolor",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Liz - watercolor on paper - 14X22 - 2020.jpg",
+      "title": "Liz - watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/MAINE FOLIAGE watercolor on paper, 18x18, 2016.jpeg",
+      "title": "MAINE FOLIAGE watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/MISSISSIPPI RIVER MARSH , Watercolor on paper, 18X24, 9-2016.jpeg",
+      "title": "MISSISSIPPI RIVER MARSH , Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/North Country Lake - watercolor on Paper - 14X22 - 2020.jpg",
+      "title": "North Country Lake - watercolor on Paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Patagonian Glacial Field.jpg",
+      "title": "Patagonian Glacial Field",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Perito Marino, Patagonia,Watercolor on Illus. Bd. 15X30 _05-2018-0017.jpeg",
+      "title": "Perito Marino, Patagonia,Watercolor on Illus. Bd",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Red Rocks Colorado.jpg",
+      "title": "Red Rocks Colorado",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Riverside Canada.jpg",
+      "title": "Riverside Canada",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Robbert Morris - watercolor on paper - 14X22.jpg",
+      "title": "Robbert Morris - watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/ROCKY COAST MAINE watrercolor on paper, 2016, 18X24.jpeg",
+      "title": "ROCKY COAST MAINE watrercolor on paper, 2016",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/ROCKY MAINE COAST Watercolor on paper, 18X24, 8-1016.jpeg",
+      "title": "ROCKY MAINE COAST Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/roman briddge.jpg",
+      "title": "roman briddge",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/ROOF TOPS SPAIN , 16X21 Watercolor on paper 05-2018-0018.jpeg",
+      "title": "ROOF TOPS SPAIN",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/ROSES , watercolro on paper 12x18, 2016 jpeg.jpeg",
+      "title": "ROSES , watercolro on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Sandia Peak Cable.jpg",
+      "title": "Sandia Peak Cable",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Sandia Peak Cliffs 18x24.jpg",
+      "title": "Sandia Peak Cliffs",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Sandia Peak.jpg",
+      "title": "Sandia Peak",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Seattle Boats - watercolor on paper- 14X22 - 2020.jpg",
+      "title": "Seattle Boats - watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Seattle Docks - watercolor on paper - 14X22 - 2020.jpg",
+      "title": "Seattle Docks - watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/SEATTLE FERRY LANDING, watercolor on paper, 8-2016 jpeg.jpeg",
+      "title": "SEATTLE FERRY LANDING, watercolor on paper, 8-2016 jpeg",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Sentinals Costal Oregon.jpg",
+      "title": "Sentinals Costal Oregon",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/spanish olives1.jpg",
+      "title": "spanish olives1",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/THE CITADEL, CANADIAN ROCKIES, 24X36 7-2016.jpeg",
+      "title": "THE CITADEL, CANADIAN ROCKIES",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/THE MAINE INSPECTOR , Watercolor, 18X24, 9-2016.jpeg",
+      "title": "THE MAINE INSPECTOR , Watercolor",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Their Domain - watercolor on paper - 22X14 - 2020.jpg",
+      "title": "Their Domain - watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Valley Lake Candian Rockies.jpg",
+      "title": "Valley Lake Candian Rockies",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Vase, Flowers, News watercolor on paper 10X19_05-2018-0014.jpeg",
+      "title": "Vase, Flowers, News watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/WALKING SEASIDE, watercolor, 18X24, 8-2016 jpeg.jpeg",
+      "title": "WALKING SEASIDE, watercolor",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Water Mist.jpg",
+      "title": "Water Mist",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/Watercolor on paper, 18X24 8-2016jpeg.jpeg",
+      "title": "Watercolor on paper",
+      "details": ""
+    },
+    {
+      "src": "images/watercolors/WHEAT, Watercolor on paper, 18x24, 8-2016 jpeg.jpeg",
+      "title": "WHEAT, Watercolor on paper",
+      "details": ""
+    }
+  ],
+  "drawings-people-and-places": [
+    {
+      "src": "images/drawings-people-and-places/1983.jpg",
+      "title": "1983",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/3 muscians Mexico City1998.jpg",
+      "title": "3 muscians Mexico City1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/3 women on Sea-Curity-1996.jpg",
+      "title": "3 women on Sea-Curity-1996",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/4 panel acrobats 2001.jpg",
+      "title": "4 panel acrobats 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6556bbortnick.jpg",
+      "title": "MG 6556bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6557bbortnick.jpg",
+      "title": "MG 6557bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6558bbortnick.jpg",
+      "title": "MG 6558bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6559bbortnick.jpg",
+      "title": "MG 6559bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6560bbortnick.jpg",
+      "title": "MG 6560bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6561bbortnick.jpg",
+      "title": "MG 6561bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6562bbortnick.jpg",
+      "title": "MG 6562bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6563bbortnick.jpg",
+      "title": "MG 6563bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6564bbortnick.jpg",
+      "title": "MG 6564bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6565bbortnick.jpg",
+      "title": "MG 6565bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6566bbortnick.jpg",
+      "title": "MG 6566bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6567bbortnick.jpg",
+      "title": "MG 6567bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6568bbortnick.jpg",
+      "title": "MG 6568bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6569bbortnick.jpg",
+      "title": "MG 6569bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6570bbortnick.jpg",
+      "title": "MG 6570bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6571bbortnick.jpg",
+      "title": "MG 6571bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6572bbortnick.jpg",
+      "title": "MG 6572bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6573bbortnick.jpg",
+      "title": "MG 6573bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6574bbortnick.jpg",
+      "title": "MG 6574bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6575bbortnick.jpg",
+      "title": "MG 6575bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6578bbortnick.jpg",
+      "title": "MG 6578bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6580bbortnick.jpg",
+      "title": "MG 6580bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6581bbortnick.jpg",
+      "title": "MG 6581bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6582bbortnick.jpg",
+      "title": "MG 6582bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6583bbortnick.jpg",
+      "title": "MG 6583bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6584bbortnick.jpg",
+      "title": "MG 6584bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6586bbortnick.jpg",
+      "title": "MG 6586bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6588bbortnick.jpg",
+      "title": "MG 6588bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6589bbortnick.jpg",
+      "title": "MG 6589bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6591bbortnick.jpg",
+      "title": "MG 6591bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/_MG_6594bbortnick.jpg",
+      "title": "MG 6594bbortnick",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobatic foursome 2001.jpg",
+      "title": "Acrobatic foursome 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobatic hand-walkers 2001.jpg",
+      "title": "Acrobatic hand-walkers 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobatic Hoop Jumper 2001.jpg",
+      "title": "Acrobatic Hoop Jumper 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobatic rollovers 2001.jpg",
+      "title": "Acrobatic rollovers 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobats  4-2001.jpg",
+      "title": "Acrobats 4-2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobats 1-2001.jpg",
+      "title": "Acrobats 1-2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobats 2-2001.jpg",
+      "title": "Acrobats 2-2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Acrobats 3-2001.jpg",
+      "title": "Acrobats 3-2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Afternoon Snacker -2002.jpg",
+      "title": "Afternoon Snacker -2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Agean Boat tour 4 - 1997.jpg",
+      "title": "Agean Boat tour 4 - 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Agean Boat tour-1997.jpg",
+      "title": "Agean Boat tour-1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Agean Boat tour.2 jpg-1997.jpg",
+      "title": "Agean Boat tour.2 jpg-1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Agean Boat tour.3 jpg 1997.jpg",
+      "title": "Agean Boat tour.3 jpg 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Agean Boat tour.4 jpg 1997.jpg",
+      "title": "Agean Boat tour.4 jpg 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Agean Tour- 1997.jpg",
+      "title": "Agean Tour- 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Air Apparent-1997.jpg",
+      "title": "Air Apparent-1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Albequerque 5-1997.jpg",
+      "title": "Albequerque 5-1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Albequrgue 4 - 1997.jpg",
+      "title": "Albequrgue 4 - 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Albequrqe N.M. 2000.jpg",
+      "title": "Albequrqe N.M. 2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Allen Street Window 2002.jpg",
+      "title": "Allen Street Window 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Amy Seated 1.jpg",
+      "title": "Amy Seated 1",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Amy Sitting.jpg",
+      "title": "Amy Sitting",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Amy Standing.jpg",
+      "title": "Amy Standing",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Amy's Profile.jpg",
+      "title": "Amy's Profile",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Andrew Litton 2008.jpg",
+      "title": "Andrew Litton 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Ann -2 6-10-2000.jpg",
+      "title": "Ann -2 6-10-2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Ann 1- 2000.jpg",
+      "title": "Ann 1- 2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Ann 3 6-10-2000.jpg",
+      "title": "Ann 3 6-10-2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Ann 4-2000.jpg",
+      "title": "Ann 4-2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Avi and Sam 1970.jpg",
+      "title": "Avi and Sam 1970",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/B - H Feed 1-2000.jpg",
+      "title": "B - H Feed 1-2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/B - H Feed 2-2000.jpg",
+      "title": "B - H Feed 2-2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Carol Pinker on the SEACURITY 2000.jpg",
+      "title": "Carol Pinker on the SEACURITY 2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Carol Pinker summer 2000.jpg",
+      "title": "Carol Pinker summer 2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Casual Photo Buff 1998.jpg",
+      "title": "Casual Photo Buff 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Catherine and Huxley 1999.jpg",
+      "title": "Catherine and Huxley 1999",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Cell talk in MET park 2008.jpg",
+      "title": "Cell talk in MET park 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Celtic Bass Player 2002.jpg",
+      "title": "Celtic Bass Player 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Celtic Flute player 2002.jpg",
+      "title": "Celtic Flute player 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Celtic Guitarist 2002.jpg",
+      "title": "Celtic Guitarist 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Celtic Lutist-Singer 2002.jpg",
+      "title": "Celtic Lutist-Singer 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Celtic One-legged fiddler2002.jpg",
+      "title": "Celtic One-legged fiddler2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Charles at the Metropolitan 2008.jpg",
+      "title": "Charles at the Metropolitan 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Charles in the Met Park 2008.jpg",
+      "title": "Charles in the Met Park 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Chicago Zelda Slogging through life 2008.jpg",
+      "title": "Chicago Zelda Slogging through life 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Claudia Steiner Asensor Izmir 10-9-99.jpg",
+      "title": "Claudia Steiner Asensor Izmir 10-9-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/countryside N. of Amerstedam 2001.jpg",
+      "title": "countryside N. of Amerstedam 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Curb Appeal 1998.jpg",
+      "title": "Curb Appeal 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Curb Appeal 2001.jpg",
+      "title": "Curb Appeal 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Curb Appeal 3 2001.jpg",
+      "title": "Curb Appeal 3 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/cyclists 1997.jpg",
+      "title": "cyclists 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/david parrish.jpg",
+      "title": "david parrish",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Distant Shore 2000.jpg",
+      "title": "Distant Shore 2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Down-n-Outer 2001.jpg",
+      "title": "Down-n-Outer 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Dr. Asta H. Lipinis @ Seraglio 10-11-99.jpg",
+      "title": "Dr. Asta H. Lipinis @ Seraglio 10-11-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Dr. Gloria Asher @ the Seraglio 10-9-99.jpg",
+      "title": "Dr. Gloria Asher @ the Seraglio 10-9-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Dr. Norman Kantor - Bosphorus 10-99.jpg",
+      "title": "Dr. Norman Kantor - Bosphorus 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Dude 1 in Union Square 6-08.jpg",
+      "title": "Dude 1 in Union Square 6-08",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Dude 2 in Union Park 6-08.jpg",
+      "title": "Dude 2 in Union Park 6-08",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Ediz Dulger @ Siringe, Turkey 10-99.jpg",
+      "title": "Ediz Dulger @ Siringe, Turkey 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Ellen Kantor on the Bosphorous 10-99.jpg",
+      "title": "Ellen Kantor on the Bosphorous 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Eva 1-1998.jpg",
+      "title": "Eva 1-1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Eva 2 -1998.jpg",
+      "title": "Eva 2 -1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Evie - 1998.jpg",
+      "title": "Evie - 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Evie 1998.jpg",
+      "title": "Evie 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Evie in Brownie Uniform 1975.jpg",
+      "title": "Evie in Brownie Uniform 1975",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Evie's Counselor 1998.jpg",
+      "title": "Evie's Counselor 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Facing It 1998.jpg",
+      "title": "Facing It 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Flea Market Economy 1994.jpg",
+      "title": "Flea Market Economy 1994",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Galley Slaves 1998.jpg",
+      "title": "Galley Slaves 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Gardens of Sultan Ahmet 6-24-03.jpg",
+      "title": "Gardens of Sultan Ahmet 6-24-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Gazer-2002.jpg",
+      "title": "Gazer-2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Geezers -2003.jpg",
+      "title": "Geezers -2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Gil @ wheel of Sea-Curity 2003.jpg",
+      "title": "Gil @ wheel of Sea-Curity 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Gil'sWorld 2003.jpg",
+      "title": "Gil'sWorld 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Girl in a Swimming Suit 2000.jpg",
+      "title": "Girl in a Swimming Suit 2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Gravity and the Stomache 2002.jpg",
+      "title": "Gravity and the Stomache 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Guitarist Friday Harbor Fair 2002.jpg",
+      "title": "Guitarist Friday Harbor Fair 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Gymanasts 1-2001.jpg",
+      "title": "Gymanasts 1-2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Hills between Capadocia - Anakara 10-18-99.jpg",
+      "title": "Hills between Capadocia - Anakara 10-18-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Izmir Harbor 10-99.jpg",
+      "title": "Izmir Harbor 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Izmir Harbor destroyer 10-99.jpg",
+      "title": "Izmir Harbor destroyer 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Izmir Shore enlargement 110-99.jpg",
+      "title": "Izmir Shore enlargement 110-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Izmir Shore enlargement 2- 10-99.jpg",
+      "title": "Izmir Shore enlargement 2- 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Jaap- Marijka Roorda- 6-30-01.jpg",
+      "title": "Jaap- Marijka Roorda- 6-30-01",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Jaap- Marijka Roorda--2  6-30-01.jpg",
+      "title": "Jaap- Marijka Roorda--2 6-30-01",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Jazz Officianado -1 -2001.jpg",
+      "title": "Jazz Officianado -1 -2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Jazz Officianado 2 Amsterdam 2001.jpg",
+      "title": "Jazz Officianado 2 Amsterdam 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Kathryn @ San Juan County Fair2002.jpg",
+      "title": "Kathryn @ San Juan County Fair2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Kathryn Reiss @ Friday Harbor 2002.jpg",
+      "title": "Kathryn Reiss @ Friday Harbor 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Lake Minnewanka Canada 8-28-06.jpg",
+      "title": "Lake Minnewanka Canada 8-28-06",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Lake Texoma 2003.jpg",
+      "title": "Lake Texoma 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Liberty embittered 2 2002.jpg",
+      "title": "Liberty embittered 2 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Liberty embittered 3-2002.jpg",
+      "title": "Liberty embittered 3-2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Liberty enbirttered 2002.jpg",
+      "title": "Liberty enbirttered 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Liberty enbittered 1 2002.jpg",
+      "title": "Liberty enbittered 1 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Lunch @ the Fair 2002.jpg",
+      "title": "Lunch @ the Fair 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Lunch in Union Square 6-08.jpg",
+      "title": "Lunch in Union Square 6-08",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Male Figure Buchard Gardens.jpg",
+      "title": "Male Figure Buchard Gardens",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Man and Dog in Kitsalano Park Vancouver BC 8-2002.jpg",
+      "title": "Man and Dog in Kitsalano Park Vancouver BC 8-2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Marmaris Beach 7-8-03.jpg",
+      "title": "Marmaris Beach 7-8-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Marmaris Beach woman 2 -7-8-03.jpg",
+      "title": "Marmaris Beach woman 2 -7-8-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Marmaris Beach woman 3 -7-8-03.jpg",
+      "title": "Marmaris Beach woman 3 -7-8-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Marmaris Beach woman 4 -7-8-03.jpg",
+      "title": "Marmaris Beach woman 4 -7-8-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Marmaris Beach woman 7-8-03.jpg",
+      "title": "Marmaris Beach woman 7-8-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Marmaris Past her prime 7-08-03.jpg",
+      "title": "Marmaris Past her prime 7-08-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Martin 2001.jpg",
+      "title": "Martin 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Merle Bruneman 2000.jpg",
+      "title": "Merle Bruneman 2000",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Miss Ravishing -2008.jpg",
+      "title": "Miss Ravishing -2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Morton in Union Park 2008.jpg",
+      "title": "Morton in Union Park 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Mount Athabasca Columbian Ice Field Alberta 8-31-06.jpg",
+      "title": "Mount Athabasca Columbian Ice Field Alberta 8-31-06",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/News of the Day-6-08.jpg",
+      "title": "News of the Day-6-08",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Nude1 1997.jpg",
+      "title": "Nude1 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/old fortifications San Franciso Bay 1985.jpg",
+      "title": "old fortifications San Franciso Bay 1985",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pianist 2-2002.jpg",
+      "title": "Pianist 2-2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pianist Mexico City 1998.jpg",
+      "title": "Pianist Mexico City 1998",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Piano 2002.jpg",
+      "title": "Piano 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pidgeon  3 - Istanbul 6-24-03.jpg",
+      "title": "Pidgeon 3 - Istanbul 6-24-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pidgeon - Istanbul 6-23-03.jpg",
+      "title": "Pidgeon - Istanbul 6-23-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pidgeon Locomotion 6-24-03.jpg",
+      "title": "Pidgeon Locomotion 6-24-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pidgeon Roundup Istanbul 6-24-03.jpg",
+      "title": "Pidgeon Roundup Istanbul 6-24-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pigeon - Big shot 6-24-03.jpg",
+      "title": "Pigeon - Big shot 6-24-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pinor Bingol  1 10-8-99.jpg",
+      "title": "Pinor Bingol 1 10-8-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pinor Bingol  2 10-8-99.jpg",
+      "title": "Pinor Bingol 2 10-8-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pinor Bingol 10-8-99.jpg",
+      "title": "Pinor Bingol 10-8-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Pizza 2002.jpg",
+      "title": "Pizza 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Plumbing the Depths 2008.jpg",
+      "title": "Plumbing the Depths 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Precarious Perch @ Met 6-08.jpg",
+      "title": "Precarious Perch @ Met 6-08",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Princess Island Ferry 6-24-03.jpg",
+      "title": "Princess Island Ferry 6-24-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel  3 2002.jpg",
+      "title": "Rachel 3 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 1- 2003.jpg",
+      "title": "Rachel 1- 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 10 2003.jpg",
+      "title": "Rachel 10 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 11 2002.jpg",
+      "title": "Rachel 11 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 4 2002.jpg",
+      "title": "Rachel 4 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 5 2002.jpg",
+      "title": "Rachel 5 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 7 10-99.jpg",
+      "title": "Rachel 7 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 7 in Turkey 10-99.jpg",
+      "title": "Rachel 7 in Turkey 10-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 8 2003.jpg",
+      "title": "Rachel 8 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel 9 2003.jpg",
+      "title": "Rachel 9 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel @ the Empress Hotel in Victoria 8-10-02.jpg",
+      "title": "Rachel @ the Empress Hotel in Victoria 8-10-02",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel at Maramaris 2003.jpg",
+      "title": "Rachel at Maramaris 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rachel w-faces -8.JPG",
+      "title": "Rachel w-faces -8",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Rapid River Placerville SD 9-11-05.jpg",
+      "title": "Rapid River Placerville SD 9-11-05",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Reclining Nude.jpg",
+      "title": "Reclining Nude",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Red Suspenders.jpg",
+      "title": "Red Suspenders",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Red X Blue Dog 2-2002.jpg",
+      "title": "Red X Blue Dog 2-2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Red X Blue Dog 2002.jpg",
+      "title": "Red X Blue Dog 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Red X Blue Dog. 3-2002 jpg.jpg",
+      "title": "Red X Blue Dog. 3-2002 jpg",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Relaxed Man - Buchard Gardens 2002.jpg",
+      "title": "Relaxed Man - Buchard Gardens 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/RL Morris 6- 2008.jpg",
+      "title": "RL Morris 6- 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Robi Dan's Cat 2002.jpg",
+      "title": "Robi Dan's Cat 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/sailing 1985.jpg",
+      "title": "sailing 1985",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Saint Sebastion -4 Paris 2007.jpg",
+      "title": "Saint Sebastion -4 Paris 2007",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Sam Sayah 8-28-06.jpg",
+      "title": "Sam Sayah 8-28-06",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Schweiker 1975.jpg",
+      "title": "Schweiker 1975",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/scrub woman 2006.jpg",
+      "title": "scrub woman 2006",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Seated Nude 1.jpg",
+      "title": "Seated Nude 1",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Seated Nude 2.jpg",
+      "title": "Seated Nude 2",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Seated Nude 3.jpg",
+      "title": "Seated Nude 3",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/self-portrait2003.jpg",
+      "title": "self-portrait2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Selim At Rhodes - 6-03.jpg",
+      "title": "Selim At Rhodes - 6-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Selma fights boredom 6-08.jpg",
+      "title": "Selma fights boredom 6-08",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Shooting the Breeze 2002.jpg",
+      "title": "Shooting the Breeze 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Shorts in Season 2002.jpg",
+      "title": "Shorts in Season 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/sketch of Evie.jpg",
+      "title": "sketch of Evie",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Sleeping it off- Maramaris 1-7-03.jpg",
+      "title": "Sleeping it off- Maramaris 1-7-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Barbara Graymont, 30th NC 1978.jpg",
+      "title": "SLP Barbara Graymont, 30th NC 1978",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Connie Blomen 30th NC 1978.jpg",
+      "title": "SLP Connie Blomen 30th NC 1978",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Constance Blomen 30th NC 1978.jpg",
+      "title": "SLP Constance Blomen 30th NC 1978",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP D. Bills, Karp 30th NC 6-78.jpg",
+      "title": "SLP D. Bills, Karp 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Dick Bell, 30th NC 6-78.jpg",
+      "title": "SLP Dick Bell, 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Doris Churchill,  6-78 30th NC.jpg",
+      "title": "SLP Doris Churchill, 6-78 30th NC",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP F. Gerard, 30th NC 6-78.jpg",
+      "title": "SLP F. Gerard, 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP George Taylor 30th NC 6-78.jpg",
+      "title": "SLP George Taylor 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Gunderson , Carol Cozzini 30 NC 6-78.jpg",
+      "title": "SLP Gunderson , Carol Cozzini 30 NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP John Emmanuel 30th NC 6-79.jpg",
+      "title": "SLP John Emmanuel 30th NC 6-79",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP John O'Neil, 30th NC 6-78.jpg",
+      "title": "SLP John O'Neil, 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Jules Levin, 30th NC 6-78.jpg",
+      "title": "SLP Jules Levin, 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Karp 2 6-78.jpg",
+      "title": "SLP Karp 2 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Karp @ 30th NC 6-78.jpg",
+      "title": "SLP Karp @ 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Robert Burns 30th NC 6-78.jpg",
+      "title": "SLP Robert Burns 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Seven Emery, 30th NC 6-78.jpg",
+      "title": "SLP Seven Emery, 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Stanley Karp, 30th NC 6-78.jpg",
+      "title": "SLP Stanley Karp, 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Stella Propel, 30th NC 6-78.jpg",
+      "title": "SLP Stella Propel, 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Unknown figure 30th NC6-78.jpg",
+      "title": "SLP Unknown figure 30th NC6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Vito de Lisi Chair 30th NC 6-78.jpg",
+      "title": "SLP Vito de Lisi Chair 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLP Vito Di Lissi 30th NC 6-78.jpg",
+      "title": "SLP Vito Di Lissi 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/SLPjohn Emanuel 30th NC 6-78.jpg",
+      "title": "SLPjohn Emanuel 30th NC 6-78",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Soli's place Istanbul 6-03.jpg",
+      "title": "Soli's place Istanbul 6-03",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Soul Searcher 2004.jpg",
+      "title": "Soul Searcher 2004",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Squatter 200o.jpg",
+      "title": "Squatter 200o",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Stop 2006.jpg",
+      "title": "Stop 2006",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Sudden Revelation 2008.jpg",
+      "title": "Sudden Revelation 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Tanker in the Bosphorus 1 2001.jpg",
+      "title": "Tanker in the Bosphorus 1 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Tanker in the Bosphorus 2001.jpg",
+      "title": "Tanker in the Bosphorus 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Tesvikiye Mosque Istanbul 2003.jpg",
+      "title": "Tesvikiye Mosque Istanbul 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dead Among the Living -Placerville SD 9-05.jpg",
+      "title": "The Dead Among the Living -Placerville SD 9-05",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream 2 2003.jpg",
+      "title": "The Dream 2 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream 3 2003.jpg",
+      "title": "The Dream 3 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream 4 2003.jpg",
+      "title": "The Dream 4 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream 5 2003.jpg",
+      "title": "The Dream 5 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream 6 2003.jpg",
+      "title": "The Dream 6 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream 7 2003.jpg",
+      "title": "The Dream 7 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream 8 2003.jpg",
+      "title": "The Dream 8 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Dream1 2003.jpg",
+      "title": "The Dream1 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/The Ovalisque 2002.jpg",
+      "title": "The Ovalisque 2002",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Throckmorton 2008.jpg",
+      "title": "Throckmorton 2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Thru a glass darkly 08-07.jpg",
+      "title": "Thru a glass darkly 08-07",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Timely Photographer6-2008.jpg",
+      "title": "Timely Photographer6-2008",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Topkapi Istanbul 2003.jpg",
+      "title": "Topkapi Istanbul 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Topkapi Restaurant  2 Istanbul 2003.jpg",
+      "title": "Topkapi Restaurant 2 Istanbul 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Topkapi Restaurant Istanbul 2003.jpg",
+      "title": "Topkapi Restaurant Istanbul 2003",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Two Figures against Water 2001.jpg",
+      "title": "Two Figures against Water 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Two People Kitsalano Park, Vancouver BC 2001.jpg",
+      "title": "Two People Kitsalano Park, Vancouver BC 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Uncle Sam's Unemployed 2001.jpg",
+      "title": "Uncle Sam's Unemployed 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Underpass 2 2001.jpg",
+      "title": "Underpass 2 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Underpass Head 2001.jpg",
+      "title": "Underpass Head 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Vancouver Sky line 8-01.jpg",
+      "title": "Vancouver Sky line 8-01",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Vichy Police 1 Product 2007.jpg",
+      "title": "Vichy Police 1 Product 2007",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Vichy Police 2 2007.jpg",
+      "title": "Vichy Police 2 2007",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Vichy Police Operative 2007.jpg",
+      "title": "Vichy Police Operative 2007",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Woman in a Chair Buchard Gardens 2001.jpg",
+      "title": "Woman in a Chair Buchard Gardens 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Woman leaning 2001.jpg",
+      "title": "Woman leaning 2001",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Yilmaz Benadrete 10-13-99.jpg",
+      "title": "Yilmaz Benadrete 10-13-99",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Young Women Thinking it over Buchard Gardens 10-8-01.jpg",
+      "title": "Young Women Thinking it over Buchard Gardens 10-8-01",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-people-and-places/Zelda - Obstacles notwithstanding.jpg",
+      "title": "Zelda - Obstacles notwithstanding",
+      "details": ""
+    }
+  ],
+  "drawings-political": [
+    {
+      "src": "images/drawings-political/Al-Lies 1- 1994.jpg",
+      "title": "Al-Lies 1- 1994",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Al-lies 2 1994.jpg",
+      "title": "Al-lies 2 1994",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Commentator Shields 1986.jpg",
+      "title": "Commentator Shields 1986",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/David Duke 1993.jpg",
+      "title": "David Duke 1993",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/DE BAIT-1972.jpg",
+      "title": "DE BAIT-1972",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Flea Market Economy 1994.jpg",
+      "title": "Flea Market Economy 1994",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 1 ALEXANDER (THE) HAIG 1980.jpg",
+      "title": "Pol 1 ALEXANDER (THE) HAIG 1980",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 10 Cisneros 1991.jpg",
+      "title": "Pol 10 Cisneros 1991",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 11 Clinton 2 10-93.jpg",
+      "title": "Pol 11 Clinton 2 10-93",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 12 Clinton 10-93.jpg",
+      "title": "Pol 12 Clinton 10-93",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 13 commentator Gurgen 19 94.jpg",
+      "title": "Pol 13 commentator Gurgen 19 94",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 15 David Duke 2 1993.jpg",
+      "title": "Pol 15 David Duke 2 1993",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 16 EDUARDO VIOLA 9-1981.jpg",
+      "title": "Pol 16 EDUARDO VIOLA 9-1981",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 17 GORBACHEV 1994.jpg",
+      "title": "Pol 17 GORBACHEV 1994",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 18Hazel O'Leary Sec of Energy 1983.jpg",
+      "title": "Pol 18Hazel O'Leary Sec of Energy 1983",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 19 HELMUT KOHL.jpg",
+      "title": "Pol 19 HELMUT KOHL",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 2 ARAFAT 1983.jpg",
+      "title": "Pol 2 ARAFAT 1983",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 20 HENRY KISSINGER 10-81.jpg",
+      "title": "Pol 20 HENRY KISSINGER 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 21 Hoover - Professional American 9-81.jpg",
+      "title": "Pol 21 Hoover - Professional American 9-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 22 HOSNI MUBARAK 1985.jpg",
+      "title": "Pol 22 HOSNI MUBARAK 1985",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 23 INDIRA 10-81.jpg",
+      "title": "Pol 23 INDIRA 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 24 JABLONSKI 1981.jpg",
+      "title": "Pol 24 JABLONSKI 1981",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 25 KHOMEINI 9-81.jpg",
+      "title": "Pol 25 KHOMEINI 9-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 26 KING HUSSEIN 11-81.jpg",
+      "title": "Pol 26 KING HUSSEIN 11-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 27 LECH WALENSA 10-81.jpg",
+      "title": "Pol 27 LECH WALENSA 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 29 Lloyd Bentsen, Sec. of  Treasury 1981.jpg",
+      "title": "Pol 29 Lloyd Bentsen, Sec. of Treasury 1981",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 3 BEGIN.jpg",
+      "title": "Pol 3 BEGIN",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 30 MARGARET THATCHER-10-81.jpg",
+      "title": "Pol 30 MARGARET THATCHER-10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 31 Menachm 8-81.jpg",
+      "title": "Pol 31 Menachm 8-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 32 MITERAND 2.jpg",
+      "title": "Pol 32 MITERAND 2",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 33 MOHMAR KADDAFI 9-81.jpg",
+      "title": "Pol 33 MOHMAR KADDAFI 9-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 34 OMAR SADDAT 10-81.jpg",
+      "title": "Pol 34 OMAR SADDAT 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 35 POPE JOHN PAUL 9-80.jpg",
+      "title": "Pol 35 POPE JOHN PAUL 9-80",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 36 President Mitterand 10-81.jpg",
+      "title": "Pol 36 President Mitterand 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 37 Prince Sultan Al Saud - Saudi Arabia 1992.jpg",
+      "title": "Pol 37 Prince Sultan Al Saud - Saudi Arabia 1992",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 38 Queen Elizabeth 1992.jpg",
+      "title": "Pol 38 Queen Elizabeth 1992",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 39 REGAN 1992.jpg",
+      "title": "Pol 39 REGAN 1992",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 4 BORIS YELTSIN 1995.jpg",
+      "title": "Pol 4 BORIS YELTSIN 1995",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 40 Robert  Novak 1993(commentator).jpg",
+      "title": "Pol 40 Robert Novak 1993(commentator)",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 42 Ross For Boss 1993.jpg",
+      "title": "Pol 42 Ross For Boss 1993",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 43 SADAM HUSEIN 10-1981.jpg",
+      "title": "Pol 43 SADAM HUSEIN 10-1981",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 44 SKIP O'NEIL 6-82.jpg",
+      "title": "Pol 44 SKIP O'NEIL 6-82",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 45 SKIP speaker OTH 6-1982.jpg",
+      "title": "Pol 45 SKIP speaker OTH 6-1982",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 47 TOM FOLEY 1984.jpg",
+      "title": "Pol 47 TOM FOLEY 1984",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 48 Warren Christopher Sec. of State 1993.jpg",
+      "title": "Pol 48 Warren Christopher Sec. of State 1993",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 49 William  Casey 10-81.jpg",
+      "title": "Pol 49 William Casey 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 5 BUSH the First 1991.jpg",
+      "title": "Pol 5 BUSH the First 1991",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 50 WILLIAM Colby, (casey) CIA Head 10-1981.jpg",
+      "title": "Pol 50 WILLIAM Colby, (casey) CIA Head 10-1981",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 50 ZIA 10-1981.jpg",
+      "title": "Pol 50 ZIA 10-1981",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 51Commentator Shields 1993.jpg",
+      "title": "Pol 51Commentator Shields 1993",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 52 UAW Frazier 1983.jpg",
+      "title": "Pol 52 UAW Frazier 1983",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 53 Premier Deng Zhao Peng.........1985.jpg",
+      "title": "Pol 53 Premier Deng Zhao Peng.........1985",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 54 Dubya 2004.jpg",
+      "title": "Pol 54 Dubya 2004",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 55 Clinton- 1997.jpg",
+      "title": "Pol 55 Clinton- 1997",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 57 Budget Director David Stockman 1995.jpg",
+      "title": "Pol 57 Budget Director David Stockman 1995",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 57 Ford 1972.jpg",
+      "title": "Pol 57 Ford 1972",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 57 William French Smith 10-72.jpg",
+      "title": "Pol 57 William French Smith 10-72",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 58 Watts 10-81.jpg",
+      "title": "Pol 58 Watts 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 59 FAA Helms 10-81.jpg",
+      "title": "Pol 59 FAA Helms 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 6 CASPER WEINBERGER 1991.jpg",
+      "title": "Pol 6 CASPER WEINBERGER 1991",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 60 Churchill 1983.jpg",
+      "title": "Pol 60 Churchill 1983",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 61 Reagan 1985.jpg",
+      "title": "Pol 61 Reagan 1985",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 62 F. Marcos 10-81.jpg",
+      "title": "Pol 62 F. Marcos 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 63 Reagan's Reign 10-81.jpg",
+      "title": "Pol 63 Reagan's Reign 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 65 Reagan10-81.jpg",
+      "title": "Pol 65 Reagan10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 66 Chancellor Helmut Schmidt 10-81.jpg",
+      "title": "Pol 66 Chancellor Helmut Schmidt 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 67 Gary Trudeau 1983.jpg",
+      "title": "Pol 67 Gary Trudeau 1983",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Pol 7 CASTRO 1984.jpg",
+      "title": "Pol 7 CASTRO 1984",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/pol 9 CHARLES 10-81.jpg",
+      "title": "pol 9 CHARLES 10-81",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Schweiker 1975.jpg",
+      "title": "Schweiker 1975",
+      "details": ""
+    },
+    {
+      "src": "images/drawings-political/Uncle Sam's Unemployed 2001.jpg",
+      "title": "Uncle Sam's Unemployed 2001",
+      "details": ""
+    }
+  ]
 }
