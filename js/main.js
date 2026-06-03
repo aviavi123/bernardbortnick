@@ -10,7 +10,6 @@
    or description to change it. See README for how edits get published.
    =========================================================================== */
 
-const EDIT_PASSWORD = "kintrob1";   // light security: deters casual visitors only (see README)
 
 /* One-click publishing target. Fill these in after the GitHub repo exists.
    While owner/repo are blank, "Publish" falls back to downloading a file. */
@@ -353,12 +352,8 @@ function makeEditable(el, field) {
 
 function enterEditMode() {
   if (editing) return;
-  if (sessionStorage.getItem("bb_unlocked") !== "1") {
-    const pw = window.prompt("Enter the editing password:");
-    if (pw === null) return;
-    if (pw !== EDIT_PASSWORD) { window.alert("Incorrect password."); return; }
-    sessionStorage.setItem("bb_unlocked", "1");
-  }
+  // No password gate: anyone can open edit mode, but only a browser holding the
+  // stored GitHub token can actually Publish — so stray edits stay local/harmless.
   editing = true;
   document.body.classList.add("editing");
   buildEditToolbar();
