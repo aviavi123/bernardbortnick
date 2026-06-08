@@ -69,6 +69,13 @@ def list_images(folder):
     return sorted(files, key=str.lower)
 
 
+def url_safe(path):
+    # Percent-encode characters that break URLs (# and ? are URL delimiters).
+    # Spaces are left as-is — browsers encode them automatically, and leaving
+    # them keeps existing edit-override keys matching.
+    return path.replace("%", "%25").replace("#", "%23").replace("?", "%3F")
+
+
 manifest = {}
 report = []
 for slug in CATEGORIES:
@@ -78,7 +85,7 @@ for slug in CATEGORIES:
     sizes = defaultdict(list)
     titles = defaultdict(list)
     for name in files:
-        rel = f"images/{slug}/{name}"
+        rel = url_safe(f"images/{slug}/{name}")
         title = clean_title(name)
         works.append({"src": rel, "title": title, "details": ""})
         sizes[os.path.getsize(os.path.join(folder, name))].append(name)
